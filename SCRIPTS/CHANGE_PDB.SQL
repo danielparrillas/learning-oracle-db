@@ -12,3 +12,6 @@ SHOW CON_NAME;
 -- CON_NAME
 -- ------------------------------
 -- PS19005
+
+-- Para regresar session
+ALTER SESSION SET CONTAINER = CDB$ROOT;
